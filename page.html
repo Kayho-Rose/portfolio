@@ -6,8 +6,8 @@
     <title>Portfolio</title>
     <link href="/portfolio/style.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -21,52 +21,87 @@
         <div class="logvi">
             <div class="logo">
                 <i class="fa-solid fa-message"></i>
-                <p>My learning journal</p>
-            </div>
-            <div class="navi">
-                <p>Home</p>
-                <p>About me</p>
+                <p>My Portfolio</p>
             </div>
         </div>
     </header>
     
     <main>
 
-        <section class="start">
+        <div class="top-grid">
             <img src="/portfolio/images/Movchan_Photo.jpg" alt="Me" class="myphoto">
-            <h2>Hi there! My name is Andrii Movchan and welcome to my learning journal.</h2>
-            <p>After several months of learning in the Frontend Developer Career Path, 
-                I've made the big jump over to the Bootcamp to get expert code reviews 
-                of my Solo Projects projects and meet like-minded peers.</p>
+            <div class="container">
+                <h1>Hi there! My name is <span>Andrii Movchan</span> and welcome to my portfolio.</h1>
+            </div>
+        </div>
+            
+        <div class="quote container">
+            <blockquote>I will face my fear. I will permit it to pass over me and through me. 
+                And when it has gone past I will turn the inner eye to see its path. 
+                Where the fear has gone there will be nothing.</blockquote>
+            <p>DUNA by Frank Herbert</p>
+        </div>
+
+        <section class="text mid-grid">
+            
+            <div class="per-inf container">
+                <h3>Personal information</h3>
+                <p>Name: Andrii Movchan</p>
+                <p>Date of birth: 08/29/2001</p>
+                <p>Kyiv, Ukraine</p>
+                <p>email: imandmov@gmail.com</p>
+                <p>number: +38 096 816 86 51</p>
+                <p>
+                    Graduated from Taras Shevchenko
+                    National University of Kyiv
+                </p>
+                <p><a href="https://www.linkedin.com/in/andrii-movchan-0aba1517a/">LinkedIn</a></p>
+            </div>
+            
+            <div class="skills container">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Advance HTML&CSS</li>
+                    <li>Advance Javascript</li>
+                    <li>CSS Grid template</li>
+                    <li>DOM</li>
+                </ul>
+            </div>
+
+            <div class="hobby container">
+                <h3>Hobby</h3>
+                <ul>
+                    <li>movies</li>
+                    <li>video games (Sony & Nintendo)</li>
+                    <li>music from jazz to breakcore</li>
+                    <li>dishes with a lot of garlic</li>
+                    <li>take tape photos</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="text">
-            <p>
-                <span>I stay committed to learning</span><br />
-
-                <br>I like to think of myself as a lifelong learner. 
-                I used to spend hours and hours learning, then try 
-                to create simple projects using what I learned or work new 
-                techniques into existing projects. While that was fun, I 
-                felt like it would be helpful to share what I was learning 
-                and most things about my journey with the world.<br />
+        <section id="work" class="bottom-grid">
+            <div class="template container">
+                <a href="https://catappmovchan.netlify.app" target="_blank">
+                    <img class="temp-img" src="/portfolio/images/catapp.PNG" alt="Catapp" >
+                </a>
                 
-                <br><span> I got started </span><br />
-                
-                <br>I started simple and gradually grew my learning journal site. 
-                I would take notes about what I was learning. After each learning session, 
-                I'd use my notes to not only reflect on what I learned but also write short 
-                summaries of what I learned using my own words.<br />
-                
-                <br />That helped me grok what I was learning, and I realized that posting 
-                my learning summaries was also helping others learn and stay motivated.
-            </p>
-        </section>
+                <p class="data">27/09/2023</p>
+                <p class="name">Catapp</p>
+                <div class="tag">
+                    <p class="html-tag">HTML</p>
+                    <p class="css-tag">CSS</p>
+                    <p class="js-tag">JS</p>
+                </div>
+                <p class="descryption">The web application was created using Firebase. 
+                    The task is to add and delete a list of products in a convenient way</p>
+                <a class="btn" href="https://github.com/Kayho-Rose/Catapp">Github</a>
 
-        <section class="grid">
-
+            </div>
         </section>
     </main>
-
+    <footer>
+        <p>2023</p>
+    </footer>
 </body>
 </html>
