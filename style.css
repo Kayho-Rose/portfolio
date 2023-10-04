@@ -56,19 +56,6 @@ h1{
     font-size: 1.75rem;
 }
 
-blockquote{
-    font-family: 'Lora', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 1.75em;
-}
-
-.quote p{
-    font-size: 1.35rem;
-    font-weight: 700;
-    text-align: end;
-}
 
 .per-inf p{
     margin-left: 1.5em;

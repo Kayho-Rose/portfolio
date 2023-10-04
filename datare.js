@@ -1,5 +1,16 @@
 export const myProject = [
     {
+        name: `Grid site`,
+        data: `19/09/2023`,
+        descryption: `The blog site is made using CSS grid and responsible design`,
+        githubUrl: `https://github.com/Kayho-Rose/grid`,
+        Url: `https://gridmovchan.netlify.app/`,
+        img: `./images/grid.PNG`,
+        html: true,
+        css: true,
+        javascript: false,
+    },
+    {
         name: `Catapp `,
         data: `05/09/2023`,
         descryption: `The web application was created using Firebase. 
@@ -25,14 +36,27 @@ export const myProject = [
         javascript: true,
     },
     {
-        name: `Grid site`,
-        data: `19/09/2023`,
-        descryption: `The blog site is made using CSS grid and responsible design`,
-        githubUrl: `https://github.com/Kayho-Rose/grid`,
-        Url: `https://gridmovchan.netlify.app/`,
-        img: `./images/grid.PNG`,
+        name: `NFT site`,
+        data: `07/21/2023`,
+        descryption: `One-page website about NFT using responsive design values`,
+        githubUrl: `https://github.com/Kayho-Rose/my_NFT_site`,
+        Url: `https://nftsitemovchan.netlify.app`,
+        img: `./images/nft.PNG`,
         html: true,
         css: true,
         javascript: false,
+    },
+    {
+        name: `Oldagram`,
+        data: '07/13/2023',
+        descryption: `Attempting to create an Instagram feed. Due to deploying to Netlify, 
+        the images in the feed are no longer linked.But when displaying the code through Life Server, 
+        everything is displayed as expected`,
+        githubUrl: `https://github.com/Kayho-Rose/Oldagram`,
+        Url: `https://oldagrammovchan.netlify.app/`,
+        img: `./images/oldagram.PNG`,
+        html: false,
+        css: true,
+        javascript: true
     }
 ]
