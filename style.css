@@ -16,6 +16,17 @@ p{
     margin-top: 0;
 }
 
+i{
+    font-size: 0.5em;
+    margin-left: 0.25em;
+    align-self: self-start;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /*Header*/
 
 
@@ -74,6 +85,7 @@ blockquote{
     align-self: center;
 }
 
+
 .tag{
     display: flex;
     justify-content: flex-start;
@@ -103,6 +115,10 @@ blockquote{
 .btn{
     background-color: black;
     color: white;
+}
+
+a:hover{
+    color: orange;
 }
 
 /*Tag*/
