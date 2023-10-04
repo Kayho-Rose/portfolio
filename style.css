@@ -32,14 +32,15 @@ a{
 
 /*Main*/
 
-.top-grid img{
+.myphoto{
     display: block;
     margin-left: auto;
-    width: 50%;
-    max-width: 250px;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
 }
 
-.top-grid img,
+.myphoto,
 .temp-img{
     border-radius: 25px;
     box-shadow: 1px 1px 3px black;
@@ -141,4 +142,28 @@ a:hover{
 
 .js-tag{
     background-color: rgb(220, 220, 32);
+}
+
+/*Footer*/
+
+.icon-share{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.icon-share a{
+    width: 45%;
+    font-size: 4em;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px black;
+    padding-bottom: 0.25em;
+}
+
+footer p{
+    margin-top: 1em;
+    text-align: center;
 }
