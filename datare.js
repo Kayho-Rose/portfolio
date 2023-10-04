@@ -29,7 +29,7 @@ export const myProject = [
         data: `27/09/2023`,
         descryption: `The blog site is made using CSS grid and responsible design`,
         githubUrl: `https://github.com/Kayho-Rose/grid`,
-        Url: `gridmovchan.netlify.app`,
+        Url: `https://gridmovchan.netlify.app/`,
         img: `./images/grid.PNG`,
         html: true,
         css: true,
