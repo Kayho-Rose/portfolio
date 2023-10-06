@@ -67,10 +67,6 @@ h1{
     flex-grow: 1;
 }
 
-.per-inf p{
-    margin-left: 1.5em;
-}
-
 .template{
     display: flex; 
     flex-direction: column;
@@ -81,7 +77,6 @@ h1{
     flex-direction: column;
     flex-grow: 1;
 }
-
 
 .data{
     font-size: 0.9rem;
