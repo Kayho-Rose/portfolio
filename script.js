@@ -21,15 +21,16 @@ function getWorkFeed(){
 
         workFeed += `
         <div class="template container">
-            
             <img class="temp-img" src='${card.img}' alt="${card.name}" >
-            <p class="data">${card.data}</p>
-            <a href='${card.Url}' target="_blank"><p class="name">${card.name}<i class="fa-solid fa-arrow-up-right-from-square"></i></i></p></a>
-            <div class="tag">
-                ${tagFeed}
+            <div class="text-card">
+                <p class="data">${card.data}</p>
+                <a href='${card.Url}' target="_blank"><p class="name">${card.name}<i class="fa-solid fa-arrow-up-right-from-square"></i></i></p></a>
+                <div class="tag">
+                    ${tagFeed}
+                </div>
+                <p class="descryption">${card.descryption}</p>
+                <a class="btn" href="${card.githubUrl}">Github</a>
             </div>
-            <p class="descryption">${card.descryption}</p>
-            <a class="btn" href="${card.githubUrl}">Github</a>
         </div>`
 
     })
