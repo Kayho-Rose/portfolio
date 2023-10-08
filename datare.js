@@ -25,9 +25,7 @@ export const myProject = [
     {
         name: `Twimba`,
         data: `10/08/2023`,
-        descryption: `Attempting to create an X (Twitter) feed. Due to deploying to Netlify, 
-                    the images in the feed are no longer linked.But when displaying the code through Life Server, 
-                    everything is displayed as expected`,
+        descryption: `Attempting to create an X (Twitter) feed.`,
         githubUrl: `https://github.com/Kayho-Rose/Twimba_Re`,
         Url: `https://twimbacheckm.netlify.app`,
         img: `./images/twimba.PNG`,
@@ -49,9 +47,7 @@ export const myProject = [
     {
         name: `Oldagram`,
         data: '07/13/2023',
-        descryption: `Attempting to create an Instagram feed. Due to deploying to Netlify, 
-        the images in the feed are no longer linked.But when displaying the code through Life Server, 
-        everything is displayed as expected`,
+        descryption: `Attempting to create an Instagram feed.`,
         githubUrl: `https://github.com/Kayho-Rose/Oldagram`,
         Url: `https://oldagrammovchan.netlify.app/`,
         img: `./images/oldagram.PNG`,
