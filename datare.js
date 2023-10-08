@@ -29,7 +29,7 @@ export const myProject = [
                     the images in the feed are no longer linked.But when displaying the code through Life Server, 
                     everything is displayed as expected`,
         githubUrl: `https://github.com/Kayho-Rose/Twimba_Re`,
-        Url: `https://mytwimbamovchan.netlify.app`,
+        Url: `https://twimbacheckm.netlify.app`,
         img: `./images/twimba.PNG`,
         html: true,
         css: true,
