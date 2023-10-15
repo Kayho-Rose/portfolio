@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 3em 0.75em 0;
     font-family: 'Source Sans 3', sans-serif;
-    background-color: darkolivegreen;
+    background: -webkit-linear-gradient(rgb(85, 107, 47), rgb(33, 41, 20));
+    background: -webkit-linear-gradient(rgb(85, 107, 47), rgb(33, 41, 20));
 }
 
 .container{
@@ -13,6 +14,7 @@ body{
     border-radius: 25px;
     box-shadow: 1px 1px 3px black;
 }
+
 p{
     margin-top: 0;
 }
@@ -118,6 +120,7 @@ h1{
 .btn-lin{
     background-color: rgb(69, 69, 255);
     color: black;
+    margin-bottom: 0.75em;
 }
 
 .btn-git{
