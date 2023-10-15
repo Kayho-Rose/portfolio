@@ -29,7 +29,7 @@ function getWorkFeed(){
                     ${tagFeed}
                 </div>
                 <p class="descryption">${card.descryption}</p>
-                <a class="btn" href="${card.githubUrl}">Github</a>
+                <a class="btn-git" href="${card.githubUrl}">Github</a>
             </div>
         </div>`
 

@@ -2,9 +2,11 @@ body{
     margin: 0;
     padding: 3em 0.75em 0;
     font-family: 'Source Sans 3', sans-serif;
+    background-color: darkolivegreen;
 }
 
 .container{
+    background-color: white;
     width: auto;
     padding: 1em;
     /*border: 1px solid black;*/
@@ -102,32 +104,39 @@ h1{
     flex-grow: 1;
 }
 
-.btn,
-.per-inf a{
+.btn-lin,
+.btn-git{
     padding: 0.5em 0;
     border-radius: 25px;
     display: block;
     text-align: center;
     text-decoration: none;
     max-width: 600px;
+    border: 2px solid black;
 }
 
-.per-inf a{
+.btn-lin{
     background-color: rgb(69, 69, 255);
-    border: 1px solid black;
     color: black;
 }
 
-.btn{
+.btn-git{
     background-color: black;
     color: white;
-    width: 100%;
 }
 
-a:hover{
-    color: orange;
+.btn-lin:hover{
+    background-color: rgb(21, 21, 216);
 }
 
+.btn-git:hover{
+    background-color: rgb(46, 46, 46);
+}
+
+i{
+    font-size: 1rem;
+    margin-right: 0.5em;
+}
 
 /*Tag*/
 .html-tag,
