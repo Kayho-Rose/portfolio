@@ -13,8 +13,7 @@ export const myProject = [
     },
     {
         name: `Catapp `,
-        descryption: `The web application was created using Firebase. 
-                The task is to add and delete a list of products in a convenient way`,
+        descryption: `The web application was created using Firebase. The task is to add and delete a list of products in a convenient way`,
         githubUrl: `https://github.com/Kayho-Rose/Catapp`,
         Url: `https://catappmovchan.netlify.app`,
         img: `./images/catapp.PNG`,
@@ -50,7 +49,7 @@ export const myProject = [
         img: `./images/oldagram.PNG`,
         html: false,
         css: true,
-        javascript: true
+        javascript: true,
     },
     {
         name: `Cookiejoke`,
@@ -60,6 +59,6 @@ export const myProject = [
         img:`./images/cookiejoke.PNG`,
         html: true,
         css: true,
-        javascript: true
+        javascript: true,
     }
 ]
