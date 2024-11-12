@@ -1,7 +1,8 @@
+import { description, name } from "commander";
+
 export const myProject = [
     {
         name: `Grid site`,
-        data: `19/09/2023`,
         descryption: `The blog site is made using CSS grid and responsible design`,
         githubUrl: `https://github.com/Kayho-Rose/grid`,
         Url: `https://gridmovchan.netlify.app/`,
@@ -12,7 +13,6 @@ export const myProject = [
     },
     {
         name: `Catapp `,
-        data: `05/09/2023`,
         descryption: `The web application was created using Firebase. 
                 The task is to add and delete a list of products in a convenient way`,
         githubUrl: `https://github.com/Kayho-Rose/Catapp`,
@@ -24,7 +24,6 @@ export const myProject = [
     },
     {
         name: `Twimba`,
-        data: `10/08/2023`,
         descryption: `Attempting to create an X (Twitter) feed.`,
         githubUrl: `https://github.com/Kayho-Rose/Twimba_Re`,
         Url: `https://twimbacheckm.netlify.app`,
@@ -35,7 +34,6 @@ export const myProject = [
     },
     {
         name: `NFT site`,
-        data: `07/21/2023`,
         descryption: `One-page website about NFT using responsive design values`,
         githubUrl: `https://github.com/Kayho-Rose/my_NFT_site`,
         Url: `https://nftsitemovchan.netlify.app`,
@@ -46,12 +44,21 @@ export const myProject = [
     },
     {
         name: `Oldagram`,
-        data: '07/13/2023',
         descryption: `Attempting to create an Instagram feed.`,
         githubUrl: `https://github.com/Kayho-Rose/Oldagram`,
         Url: `https://oldagrammovchan.netlify.app/`,
         img: `./images/oldagram.PNG`,
         html: false,
+        css: true,
+        javascript: true
+    },
+    {
+        name: `Cookiejoke`,
+        description: `a course advertising page that "aggressively" requests permission to use user cookies`,
+        githubUrl: `https://github.com/Kayho-Rose/Cookie`,
+        Url: `https://cookiejoke.netlify.app/`,
+        img:`./images/cookiejoke.PNG`,
+        html: true,
         css: true,
         javascript: true
     }
