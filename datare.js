@@ -1,5 +1,3 @@
-import { description, name } from "commander";
-
 export const myProject = [
     {
         name: `Grid site`,
@@ -53,7 +51,7 @@ export const myProject = [
     },
     {
         name: `Cookiejoke`,
-        description: `a course advertising page that "aggressively" requests permission to use user cookies`,
+        descryption: `A course advertising page that aggressively requests permission to use user cookies`,
         githubUrl: `https://github.com/Kayho-Rose/Cookie`,
         Url: `https://cookiejoke.netlify.app/`,
         img:`./images/cookiejoke.PNG`,
