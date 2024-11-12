@@ -23,7 +23,7 @@ function getWorkFeed(){
         <div class="template container">
             <img class="temp-img" src='${card.img}' alt="${card.name}" >
             <div class="text-card">
-                <a href='${card.Url}' target="_blank"><p class="name">${card.name}<i class="fa-solid fa-arrow-up-right-from-square"></i></i></p></a>
+                <a href='${card.Url}' target="_blank" class="card_name"><p class="name">${card.name}<i class="fa-solid fa-arrow-up-right-from-square"></i></i></p></a>
                 <div class="tag">
                     ${tagFeed}
                 </div>

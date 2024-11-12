@@ -32,6 +32,8 @@ a{
     color: white;
 }
 
+
+
 li{
     list-style-type: square;
 }
@@ -88,10 +90,9 @@ h1{
     flex-grow: 1;
 }
 
-.data{
-    font-size: 0.9rem;
-    margin-bottom: 0.66em;
- }
+.card_name{
+    color: black;
+}
 
 .name{
     font-size: 2rem;
