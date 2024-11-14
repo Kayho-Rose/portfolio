@@ -22,13 +22,13 @@ function getWorkFeed(){
         workFeed += `
         <div class="template container">
             <img class="temp-img" src='${card.img}' alt="${card.name}" >
-            <div class="text-card">
+            <div class="text-card cont-pad">
                 <a href='${card.Url}' target="_blank" class="card_name"><p class="name">${card.name}<i class="fa-solid fa-arrow-up-right-from-square"></i></i></p></a>
                 <div class="tag">
                     ${tagFeed}
                 </div>
                 <p class="descryption">${card.descryption}</p>
-                <a class="btn-git" href="${card.githubUrl}">Github</a>
+                <a class="btn-git text-pad" href="${card.githubUrl}">Github</a>
             </div>
         </div>`
 
