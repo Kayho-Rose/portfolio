@@ -8,15 +8,15 @@ function getWorkFeed(){
         let tagFeed = ` `
 
         if(card.html){
-            tagFeed += `<p class="html-tag">HTML</p>`
+            tagFeed += `<p class="tag">HTML</p>`
         }
 
         if(card.css){
-            tagFeed += `<p class="css-tag">CSS</p>`
+            tagFeed += `<p class="tag">CSS</p>`
         }
 
         if(card.javascript){
-            tagFeed += `<p class="js-tag">JS</p>`
+            tagFeed += `<p class="tag">JS</p>`
         }
 
         workFeed += `
@@ -24,7 +24,7 @@ function getWorkFeed(){
             <img class="temp-img" src='${card.img}' alt="${card.name}" >
             <div class="text-card cont-pad">
                 <a href='${card.Url}' target="_blank" class="card_name"><p class="name">${card.name}<i class="fa-solid fa-arrow-up-right-from-square"></i></i></p></a>
-                <div class="tag">
+                <div class="tag-feed">
                     ${tagFeed}
                 </div>
                 <p class="descryption">${card.descryption}</p>

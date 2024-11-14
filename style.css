@@ -1,20 +1,31 @@
 *{
-    box-sizing: content-box;
+    box-sizing: border-box;
+}
+/*--- Font ---*/
+@font-face {
+    font-family: 'Unity Sans';
+    src: url('./font/UnitySans-Basic.ttf'),
+         url('./font/UnitySans-Display.ttf'),
+         url('./font/UnitySans-DisplayMax.ttf')      
 }
 
 body{
     margin: 0;
     padding: 3em 0.75em 0;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Unity Sans', sans-serif;
+    background-color: #DAE2DA;
 }
 
 .container{
-    background-color: white;
+    background-color: whitesmoke;
     width: auto;
-    padding: 1em;
     /*border: 1px solid black;*/
     border-radius: 25px;
     box-shadow: 1px 1px 3px black;
+}
+
+.cont-pad{
+    padding: 1rem;
 }
 
 p{
@@ -32,7 +43,9 @@ a{
     color: white;
 }
 
-
+button{
+    font-family: inherit;
+}
 
 li{
     list-style-type: square;
@@ -47,24 +60,6 @@ li{
 }
 
 /*Main*/
-
-.myphoto{
-    display: none;
-    width: 50%;
-    max-width: 250px;
-    object-position: center;
-}
-
-.myphoto,
-.temp-img{
-    border-radius: 25px;
-    box-shadow: 1px 1px 3px black;
-}
-
-.temp-img{
-    width: 100%;
-    margin-bottom: 0.625em;
-}
 
 h1{
     font-size: 1.75rem;
@@ -85,10 +80,24 @@ h1{
     flex-direction: column;
 }
 
+.temp-img{
+    width: 100%;
+    z-index: 1;
+}
+
 .text-card{
     display: flex; 
     flex-direction: column;
     flex-grow: 1;
+    background-color: #7F9679;
+    z-index: 2;
+    margin-top: -10vh;
+    box-shadow: 1px 1px 5px black;
+}
+
+.temp-img,
+.text-card{
+    border-radius: 25px;
 }
 
 .card_name{
@@ -102,7 +111,7 @@ h1{
     align-self: center;
 }
 
-.tag{
+.tag-feed{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -151,25 +160,12 @@ i{
 }
 
 /*Tag*/
-.html-tag,
-.css-tag,
-.js-tag{
+.tag{
     width: 90px;
     border: 1px solid black;
     border-radius: 15px;
     text-align: center;
-}
-
-.html-tag{
-    background-color: rgb(245, 193, 89);
-}
-
-.css-tag{
-    background-color: rgb(118, 243, 98);
-}
-
-.js-tag{
-    background-color: rgb(93, 155, 247);
+    background-color: whitesmoke;
 }
 
 @media screen and (min-width: 576px){
@@ -181,10 +177,6 @@ i{
 
     h1{
         font-size: 3.5vw;
-    }
-
-    .myphoto{
-        display: block;
     }
 
 
@@ -199,6 +191,7 @@ i{
         flex-direction: row;
     }
 }
+
 
 @media (min-width: 768px){
     
