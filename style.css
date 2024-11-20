@@ -3,16 +3,26 @@
 }
 /*--- Font ---*/
 @font-face {
-    font-family: 'Unity Sans';
-    src: url('./font/UnitySans-Basic.ttf'),
-         url('./font/UnitySans-Display.ttf'),
-         url('./font/UnitySans-DisplayMax.ttf')      
+    font-family: 'Unity Sans Basic';
+    src: url('./font/UnitySans-Basic.ttf')   
 }
+
+@font-face {
+    font-family: 'Unity Sans Display';
+    src: url('./font/UnitySans-Display.ttf')   
+}
+
+@font-face {
+    font-family: 'Unity Sans DisplayMax';
+    src: url('./font/UnitySans-DisplayMax.ttf')   
+}
+
+/*--- Body ---*/
 
 body{
     margin: 0;
-    padding: 3em 0.75em 0;
-    font-family: 'Unity Sans', sans-serif;
+    padding: 1em 0.75em 0;
+    font-family: 'Unity Sans Basic', sans-serif;
     background-color: #DAE2DA;
 }
 
@@ -26,6 +36,24 @@ body{
 
 .cont-pad{
     padding: 1rem;
+}
+
+/*--- Typography ---*/
+
+h1{
+    font-family: 'Unity Sans Display', sans-serif;
+    font-size: 13vw;
+    margin: 0;
+}
+
+span{
+    font-family: 'Unity Sans DisplayMax', sans-serif;
+    color: whitesmoke;
+    padding: 0 0.4em;
+    background-color: #060606;
+    border-radius: 45px;
+    text-align: center;
+
 }
 
 p{
@@ -61,10 +89,6 @@ li{
 
 /*Main*/
 
-h1{
-    font-size: 1.75rem;
-    margin: 0;
-}
 
 .per-inf{
     display: flex;
@@ -162,10 +186,22 @@ i{
 /*Tag*/
 .tag{
     width: 90px;
+    padding: 0.13em;
     border: 1px solid black;
     border-radius: 15px;
     text-align: center;
-    background-color: whitesmoke;
+}
+
+.html{
+    background-color: #f06529;
+}
+
+.css{
+    background-color: #663399;
+}
+
+.jscript{
+    background-color: #F0DB4F;
 }
 
 @media screen and (min-width: 576px){

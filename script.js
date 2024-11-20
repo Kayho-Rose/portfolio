@@ -8,15 +8,15 @@ function getWorkFeed(){
         let tagFeed = ` `
 
         if(card.html){
-            tagFeed += `<p class="tag">HTML</p>`
+            tagFeed += `<p class="html tag">HTML</p>`
         }
 
         if(card.css){
-            tagFeed += `<p class="tag">CSS</p>`
+            tagFeed += `<p class="css tag">CSS</p>`
         }
 
         if(card.javascript){
-            tagFeed += `<p class="tag">JS</p>`
+            tagFeed += `<p class="jscript tag">JS</p>`
         }
 
         workFeed += `
@@ -28,7 +28,7 @@ function getWorkFeed(){
                     ${tagFeed}
                 </div>
                 <p class="descryption">${card.descryption}</p>
-                <a class="btn-git text-pad" href="${card.githubUrl}">Github</a>
+                <a class="btn-git text-pad" href="${card.githubUrl}"><i class="fa-brands fa-github"></i>Github</a>
             </div>
         </div>`
 
