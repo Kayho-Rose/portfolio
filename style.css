@@ -49,11 +49,7 @@ h1{
 span{
     font-family: 'Unity Sans DisplayMax', sans-serif;
     color: whitesmoke;
-    padding: 0 0.4em;
     background-color: #060606;
-    border-radius: 45px;
-    text-align: center;
-
 }
 
 p{
@@ -151,15 +147,18 @@ li{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap: 0.5em
+    gap: 0.5em;
+    margin-top: 1.25em;
 }
 
-.btn-lin,
-.btn-git{
+button{
     padding: 0.5em 0;
     border-radius: 25px;
     width: 100%;
     text-align: center;
+    color: whitesmoke;
+    border: none;
+    box-shadow: 1px 1px 5px black;
 }
 
 .btn-lin{
@@ -168,6 +167,14 @@ li{
 
 .btn-git{
     background-color: black;
+}
+
+.btn-inst{
+    background-color: #C13584;
+}
+
+.btn-tg{
+    background-color: #24A1DE;
 }
 
 .btn-lin:hover{

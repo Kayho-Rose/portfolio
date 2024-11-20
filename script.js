@@ -28,7 +28,7 @@ function getWorkFeed(){
                     ${tagFeed}
                 </div>
                 <p class="descryption">${card.descryption}</p>
-                <a class="btn-git text-pad" href="${card.githubUrl}"><i class="fa-brands fa-github"></i>Github</a>
+                <button class="btn-git text-pad" href="${card.githubUrl}"><i class="fa-brands fa-github"></i>Github</button>
             </div>
         </div>`
 
