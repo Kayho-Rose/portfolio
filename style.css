@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 /*--- Font ---*/
 @font-face {
     font-family: 'Unity Sans Basic';
@@ -52,6 +57,16 @@ span{
     background-color: #060606;
 }
 
+h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 1.25em auto 0.5em;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
 p{
     margin-top: 0;
 }
@@ -69,6 +84,9 @@ a{
 
 button{
     font-family: inherit;
+    cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
 }
 
 li{
@@ -76,7 +94,7 @@ li{
 }
 
 .mid-grid,
-.bottom-grid{
+.template-grid{
     display: flex;
     flex-direction: column;
     margin-bottom: 1.25em;
@@ -85,11 +103,20 @@ li{
 
 /*Main*/
 
+.right-main{
+    display: flex;
+    flex-direction: column;
+
+}
 
 .per-inf{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.per-inf,
+.buttons{
     flex-grow: 1;
 }
 
@@ -139,14 +166,13 @@ li{
 }
 
 .descryption{
-    text-align: justify;
     flex-grow: 1;
 }
+
 /*--- Buttons ---*/
 .buttons{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    display: grid;
+    grid-template: repeat(2, 50px) / repeat(2, 1fr);
     gap: 0.5em;
     margin-top: 1.25em;
 }
@@ -155,34 +181,44 @@ button{
     padding: 0.5em 0;
     border-radius: 25px;
     width: 100%;
-    text-align: center;
-    color: whitesmoke;
     border: none;
     box-shadow: 1px 1px 5px black;
+}
+
+.buttons button{
+    height: 100%;
 }
 
 .btn-lin{
     background-color: rgb(69, 69, 255);
 }
 
+.btn-lin:hover{
+    background-color: rgb(21, 21, 216);
+}
+
 .btn-git{
     background-color: black;
+}
+
+.btn-git:hover{
+    background-color: rgb(46, 46, 46);
 }
 
 .btn-inst{
     background-color: #C13584;
 }
 
+.btn-inst:hover{
+    background-color: #E1306C;
+}
+
 .btn-tg{
     background-color: #24A1DE;
 }
 
-.btn-lin:hover{
-    background-color: rgb(21, 21, 216);
-}
-
-.btn-git:hover{
-    background-color: rgb(46, 46, 46);
+.btn-tg:hover{
+    background-color: #1982b3;
 }
 
 i{
@@ -219,25 +255,33 @@ i{
     }
 
     h1{
-        font-size: 3.5vw;
+        font-size: 8vw;
     }
 
 
     .mid-grid{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 1fr;
+        flex-direction: row;
         grid-gap: 1.25em;
+    }
+
+    .skills,
+    .right-main{
+        width: 50%;
+        height: auto;
     }
     
     .buttons{
-        flex-direction: row;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     }
 }
 
 
 @media (min-width: 768px){
-    
+
+    h1{
+        font-size: 7vw;
+    }
+
     .text h3{
         font-size: 2vw;
     }
@@ -249,7 +293,7 @@ i{
         gap: 1.25em;
     }
 
-    .bottom-grid{
+    .template-grid{
         display: grid;
         grid-template: auto / repeat(auto-fit, minmax(310px, 1fr)) ;
         justify-content: center;
@@ -260,6 +304,10 @@ i{
     body{
         padding-left: 8em;
         padding-right: 8em;
+    }
+
+    h1{
+        font-size: 6vw;
     }
 
     .per-inf,
