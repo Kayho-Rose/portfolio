@@ -1,5 +1,12 @@
 export const myProject = [
     {
+        name: `MVM Legal`,
+        descryption: `A multi-page website of a law firm created in Wordpress. It provides detailed information about the company and contains a blog page for publications.`,
+        Url: `https://mvmlegal.org/`,
+        img: `alt: MVM Legal image`,
+        wordpress: true
+    },
+    {
         name: `Grid site`,
         descryption: `The blog site is made using CSS grid and responsible design`,
         githubUrl: `https://github.com/Kayho-Rose/grid`,

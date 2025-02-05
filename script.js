@@ -1,18 +1,5 @@
 import { myProject } from "./datare.js"
 
-document.addEventListener('click', function(e){
-    if(e.target.classList === 'btn-lin'){
-        addToOrder(e.target.dataset.add)
-    }
-    else if(e.target.id === 'complete-btn'){
-        completeOrder()
-    }else if (e.target.id === 'remove-btn'){
-        removeOrder()
-    }
-    else if(e.target.id === 'pay-btn'){
-        payOrder()
-    }
-})
 
 
 function getWorkFeed(){
@@ -32,6 +19,10 @@ function getWorkFeed(){
 
         if(card.javascript){
             tagFeed += `<p class="jscript tag">JS</p>`
+        }
+
+        if(card.wordpress){
+            tagFeed += `<p class="wordpress tag">Wordpress</p>`
         }
 
         workFeed += `

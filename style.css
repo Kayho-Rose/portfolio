@@ -247,6 +247,10 @@ i{
     background-color: #F0DB4F;
 }
 
+.wordpress{
+    background-color: #24A1DE;
+}
+
 @media screen and (min-width: 576px){
     
     body{
